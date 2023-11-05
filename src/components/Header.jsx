@@ -31,19 +31,20 @@ const Navbar = () => {
                 <a href="/">Home</a>
               </li>
               <li>
+                <a href="/about">Acerca del CIINTUR</a>
+              </li>
+              <li>
                 <a href="/repository">Repositorio</a>
               </li>
               <li>
-                <a href="/laptop"> Sabias Que? </a>
+                <a href="/information">Publicaciones científica</a>
               </li>
               <li>
-                <a href="/computer">Datos estadisticos </a>
+                <a href="/proposal"> Propuestas Innovadoras </a>
               </li>
+
               <li>
-                <a href="/accesories">Actividades</a>
-              </li>
-              <li>
-                <a href="/accesories">Contacto</a>
+                <a href="/contact"> Contacto </a>
               </li>
             </ul>
           </div>
@@ -53,20 +54,21 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg">
+            <li className="hover:bg-[#A1C516] rounded-md ">
+              <a href="/about">Acerca del CIINTUR</a>
+            </li>
             <li className="hover:bg-[#d2266b] rounded-md ">
               <a href="/repository">Repositorio</a>
             </li>
             <li className="hover:bg-[#F49A0F] rounded-md ">
-              <a href="/computer">Sabias Que?</a>
+              <a href="/information">Publicaciones científicas</a>
             </li>
-            <li className="hover:bg-[#A1C516] rounded-md">
-              <a href="/laptop">Datos estadistico</a>
-            </li>
+
             <li className="hover:bg-[#206DB5] rounded-md">
-              <a href="/accesories"> Actividades </a>
+              <a href="/proposal"> Propuestas Innovadoras </a>
             </li>
             <li className="hover:bg-[#d2266b] rounded-md">
-              <a href="/accesories"> Contacto </a>
+              <a href="/contact"> Contacto </a>
             </li>
           </ul>
         </div>
