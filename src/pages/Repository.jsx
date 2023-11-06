@@ -8,7 +8,7 @@ export const Repository = () => {
       <Header />
 
       <main className="p-10">
-        <h1>Libros Publicados</h1>
+        <h1>Repositorio</h1>
       </main>
 
       <Footer />
