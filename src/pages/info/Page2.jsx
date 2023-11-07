@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import img from "../../assets/portadas-oficiales/1.png";
+import img from "../../assets/portadas-oficiales/2.png";
 import pdf1 from "../../assets/pdf/edit1.pdf";
 
-export const Page1 = () => {
+export const Page2 = () => {
   const handleDescargaPDF = () => {
     const link = document.createElement("a");
     link.href = pdf1;
@@ -12,7 +12,7 @@ export const Page1 = () => {
     link.click();
   };
   return (
-    <div>
+    <>
       <Header />
       <section className="overflow-hidden bg-white py-11 font-poppins dark:bg-gray-800">
         <div className="max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
@@ -98,6 +98,6 @@ export const Page1 = () => {
         </div>
       </section>
       <Footer />
-    </div>
+    </>
   );
 };

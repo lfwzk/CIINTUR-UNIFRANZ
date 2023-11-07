@@ -1,8 +1,9 @@
 import React from "react";
-import portada1 from "../assets/portadas/portada1.png";
-import portada2 from "../assets/portadas/portada2.png";
-import portada3 from "../assets/portadas/portadah3.png";
-import portada4 from "../assets/portadas/portada4.png";
+import portada1 from "../assets/portadas-oficiales/1.png";
+
+import portada2 from "../assets/portadas-oficiales/2.png";
+import portada3 from "../assets/portadas-oficiales/3.png";
+import portada4 from "../assets/portadas-oficiales/4.png";
 
 export const Publish = () => {
   return (

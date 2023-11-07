@@ -30,7 +30,12 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p> Developed with 💚 lfernand_cs </p>
+          <p>
+            {" "}
+            Developed with 💚 <a href="https://github.com/lfwzk">
+              lfernand_cs
+            </a>{" "}
+          </p>
         </div>
       </footer>
     </>
