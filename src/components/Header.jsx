@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import logo from "../assets/principal.png";
 
 const Navbar = () => {
@@ -42,6 +41,9 @@ const Navbar = () => {
               <li>
                 <a href="/proposal"> Propuestas Innovadoras </a>
               </li>
+              <li>
+                <a href="/blog"> Blog </a>
+              </li>
 
               <li>
                 <a href="/contact"> Contacto </a>
@@ -58,7 +60,7 @@ const Navbar = () => {
               <a href="/about">Acerca del CIINTUR</a>
             </li>
             <li className="hover:bg-[#d2266b] rounded-md ">
-              <a href="/repository">Repositorio</a>
+              <a href="#">Repositorio</a>
             </li>
             <li className="hover:bg-[#F49A0F] rounded-md ">
               <a href="/information">Publicaciones científicas</a>
@@ -66,6 +68,9 @@ const Navbar = () => {
 
             <li className="hover:bg-[#206DB5] rounded-md">
               <a href="/proposal"> Propuestas Innovadoras </a>
+            </li>
+            <li className="hover:bg-[#d2266b] rounded-md">
+              <a href="/blog"> Blog </a>
             </li>
             <li className="hover:bg-[#d2266b] rounded-md">
               <a href="/contact"> Contacto </a>

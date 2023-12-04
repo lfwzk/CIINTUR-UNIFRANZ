@@ -13,6 +13,7 @@ import { Proposal } from "./pages/Proposal";
 import { Page2 } from "./pages/info/Page2";
 import { Page3 } from "./pages/info/Page3";
 import { Page4 } from "./pages/info/Page4";
+import { Blog } from "./pages/Blog";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
 
         <Route path="/posts" element={<Post />} />
         <Route path="/proposal" element={<Proposal />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </>
   );
