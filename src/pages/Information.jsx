@@ -13,11 +13,7 @@ const publications = [
     image: img1,
     link: "/pagina1",
   },
-  {
-    title: "Innovación y Transformación del Turismo en Bolivia",
-    image: img2,
-    link: "/pagina2",
-  },
+
   {
     title:
       "Impactos del Covid-19 en los Emprendimientos de Turismo de las Comunidades Nativas de Bolivia",

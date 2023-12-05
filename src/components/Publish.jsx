@@ -26,7 +26,7 @@ export const Publish = () => {
                 className="h-full w-full object-cover transform transition duration-500 hover:scale-110"
               />
             </a>
-            <a
+            {/* <a
               href="/pagina2"
               className="h-100 w-full rounded-md overflow-hidden hover:shadow-lg"
             >
@@ -35,7 +35,7 @@ export const Publish = () => {
                 alt="portada"
                 className="h-full w-full object-cover transform transition duration-500 hover:scale-110"
               />
-            </a>
+            </a> */}
             <a
               href="/pagina3"
               className="h-100 w-full rounded-md overflow-hidden hover:shadow-lg"
