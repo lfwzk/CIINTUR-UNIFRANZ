@@ -6,120 +6,154 @@ export const Blog = () => {
   return (
     <div>
       <Header />
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="mb-10 border-t border-b divide-y">
-          <div className="grid py-8 sm:grid-cols-4">
-            <div className="mb-4 sm:mb-0">
-              <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  aria-label="Category"
-                >
-                  Books
-                </a>
-                <p className="text-gray-600">5 Jan 2020</p>
-              </div>
-            </div>
-            <div className="sm:col-span-3 lg:col-span-2">
-              <div className="mb-3">
-                <a
-                  href="/"
-                  aria-label="Article"
-                  className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
-                >
-                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
-                    Tell them I hate them
-                  </p>
-                </a>
-              </div>
-              <p className="text-gray-700">
-                Well, the way they make shows is, they make one show. That
-                show's called a pilot. Then they show that show to the people
-                who make shows.
-              </p>
-            </div>
+      <section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
+        <div className="container p-6 mx-auto space-y-8">
+          <div className="space-y-2 text-center">
+            <h2 className="text-3xl font-bold">Articulos destacados </h2>
+            <p className="font-serif text-sm dark:text-gray-400">
+              Los articulos destacados de estudiantes de turismo
+            </p>
           </div>
-          <div className="grid py-8 sm:grid-cols-4">
-            <div className="mb-4 sm:mb-0">
-              <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
+          <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4 ">
+            <article className="flex flex-col dark:bg-gray-900 rounded-md">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <img
+                  alt=""
+                  className="object-cover w-full h-52 dark:bg-gray-500 rounded-t-md"
+                  src="https://source.unsplash.com/200x200/?fashion?1"
+                />
+              </a>
+              <div className="flex flex-col flex-1 p-6 ">
                 <a
-                  href="/"
-                  className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  aria-label="Category"
-                >
-                  Inspiration
-                </a>
-                <p className="text-gray-600">15 Sep 2020</p>
-              </div>
-            </div>
-            <div className="sm:col-span-3 lg:col-span-2">
-              <div className="mb-3">
+                  rel="noopener noreferrer"
+                  href="#"
+                  aria-label="Te nulla oportere reprimique his dolorum"
+                ></a>
                 <a
-                  href="/"
-                  aria-label="Article"
-                  className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  rel="noopener noreferrer"
+                  href="#"
+                  className="text-xs tracki uppercase hover:underline dark:text-lime-400"
                 >
-                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
-                    A flower in my green garden
-                  </p>
+                  Convenire
                 </a>
+                <h3 className="flex-1 py-2 text-lg font-semibold leadi">
+                  Te nulla oportere reprimique his dolorum
+                </h3>
+                <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
+                  <span>June 1, 2020</span>
+                  <span>2.1K views</span>
+                </div>
               </div>
-              <p className="text-gray-700">
-                Chase ball of string eat plants, meow, and throw up because I
-                ate plants going to catch the red dot today going.
-              </p>
-            </div>
-          </div>
-          <div className="grid py-8 sm:grid-cols-4">
-            <div className="mb-4 sm:mb-0">
-              <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
+            </article>
+            <article className="flex flex-col dark:bg-gray-900 rounded-md">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <img
+                  alt=""
+                  className="object-cover w-full h-52 dark:bg-gray-500 rounded-t-md"
+                  src="https://source.unsplash.com/200x200/?fashion?2"
+                />
+              </a>
+              <div className="flex flex-col flex-1 p-6">
                 <a
-                  href="/"
-                  className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  aria-label="Category"
-                >
-                  Detective
-                </a>
-                <p className="text-gray-600">28 Dec 2020</p>
-              </div>
-            </div>
-            <div className="sm:col-span-3 lg:col-span-2">
-              <div className="mb-3">
+                  rel="noopener noreferrer"
+                  href="#"
+                  aria-label="Te nulla oportere reprimique his dolorum"
+                ></a>
                 <a
-                  href="/"
-                  aria-label="Article"
-                  className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  rel="noopener noreferrer"
+                  href="#"
+                  className="text-xs tracki uppercase hover:underline dark:text-lime-400"
                 >
-                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
-                    We never had the love we deserve
-                  </p>
+                  Convenire
                 </a>
+                <h3 className="flex-1 py-2 text-lg font-semibold leadi">
+                  Te nulla oportere reprimique his dolorum
+                </h3>
+                <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
+                  <span>June 2, 2020</span>
+                  <span>2.2K views</span>
+                </div>
               </div>
-              <p className="text-gray-700">
-                Sportacus andrew weatherall goose Refined gentlemen super mario
-                des lynam alpha trion zap.
-              </p>
-            </div>
+            </article>
+            <article className="flex flex-col dark:bg-gray-900 rounded-md">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <img
+                  alt=""
+                  className="object-cover w-full h-52 dark:bg-gray-500 rounded-t-md"
+                  src="https://source.unsplash.com/200x200/?fashion?3"
+                />
+              </a>
+              <div className="flex flex-col flex-1 p-6">
+                <a
+                  rel="noopener noreferrer"
+                  href="#"
+                  aria-label="Te nulla oportere reprimique his dolorum"
+                ></a>
+                <a
+                  rel="noopener noreferrer"
+                  href="#"
+                  className="text-xs tracki uppercase hover:underline dark:text-lime-400"
+                >
+                  Convenire
+                </a>
+                <h3 className="flex-1 py-2 text-lg font-semibold leadi">
+                  Te nulla oportere reprimique his dolorum
+                </h3>
+                <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
+                  <span>June 3, 2020</span>
+                  <span>2.3K views</span>
+                </div>
+              </div>
+            </article>
+            <article className="flex flex-col dark:bg-gray-900 rounded-md">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <img
+                  alt=""
+                  className="object-cover w-full h-52 dark:bg-gray-500 rounded-t-md"
+                  src="https://source.unsplash.com/200x200/?fashion?4"
+                />
+              </a>
+              <div className="flex flex-col flex-1 p-6">
+                <a
+                  rel="noopener noreferrer"
+                  href="#"
+                  aria-label="Te nulla oportere reprimique his dolorum"
+                ></a>
+                <a
+                  rel="noopener noreferrer"
+                  href="#"
+                  className="text-xs tracki uppercase hover:underline dark:text-lime-400"
+                >
+                  Convenire
+                </a>
+                <h3 className="flex-1 py-2 text-lg font-semibold leadi">
+                  Te nulla oportere reprimique his dolorum
+                </h3>
+                <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
+                  <span>June 4, 2020</span>
+                  <span>2.4K views</span>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
-        <div className="text-center">
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            See all articles
-            <svg
-              className="inline-block w-3 ml-2"
-              fill="currentColor"
-              viewBox="0 0 12 12"
-            >
-              <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-            </svg>
-          </a>
-        </div>
-      </div>
+      </section>
       <Footer />
     </div>
   );

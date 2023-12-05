@@ -8,7 +8,7 @@ export const Page1 = () => {
   const handleDescargaPDF = () => {
     const link = document.createElement("a");
     link.href = pdf1;
-    link.download = "descarga1.pdf"; // Nombre que tendrá el archivo descargado
+    link.download = "descarga1.pdf";
     link.click();
   };
   return (
@@ -39,12 +39,22 @@ export const Page1 = () => {
                     <span>Descripción</span>
                   </p>
                   <p className="max-w-md text-gray-700 dark:text-gray-400 text-justify">
-                    La Pandemia del Covid-19 no sólo está afectando a la salud
-                    de la población, sino también está deteriorando las
-                    economías y las industrias de los países, una de ellas y la
-                    más afectada es sin duda el turismo. Bajo este contexto la
-                    carrera de Administración de Hotelería y Turismo de la
-                    Universidad Privada Franz Tamayo - Sede El Alto, m
+                    La Covid-19 no solo ha afectado la salud de la población,
+                    sino también ha deteriorado las economías y las industrias
+                    de los países, una de ellas y la más afectada es, sin duda,
+                    el turismo. El impacto de la Covid-19 en la industria
+                    turística boliviana alertó que se perderían cerca de 3.020
+                    millones de bolivianos en la gestión de 2020. Los
+                    principales mercados de turismo receptivo de Bolivia
+                    disminuyeron drásticamente sus viajes y el impacto derivado
+                    de la ausencia de turismo provocó que más de 140.000
+                    personas perdieran su fuente de empleo. Pero, sin duda, el
+                    microempresario de turismo fue quien recibió el mayor
+                    impacto, ya que cerca del 50% de las unidades productivas
+                    cerraron operaciones en los meses siguientes al inicio de la
+                    pandemia. Sin embargo, los empresarios bolivianos vieron en
+                    la paralización una oportunidad para pensar y reinventarse a
+                    partir de la migración al mundo informático.
                   </p>
                 </div>
                 <div className="mb-8">
@@ -52,19 +62,27 @@ export const Page1 = () => {
                     Autores
                   </h2>
                   <div className="flex flex-wrap -mx-2 -mb-2">
-                    - Fernando <br />
-                    - Juan <br />
-                    - Maria <br />
+                    - Orlando Poma Loza <br />
+                    -Viviana Valda Baldivieso <br />
+                    -Ángela Loayza Céspedes <br />
+                    -Carolina Patricia Soliz Limarino <br />
+                    -Claudia Montserrat Lourdes Lizarazu Salles <br />
+                    -Deysi Karla Janco De la Cruz <br />
+                    -Nicole María García Miranda <br />
+                    -Laura Poveda Palacios <br />
+                    -Melania Fátima San Miguel Chacón <br />
+                    - Rocy Marleny Mamani Limachi <br />
+                    -Wendy Echalar Dávila <br />
                   </div>
                 </div>
                 <div className="mb-8 ">
                   <h2 className="w-16 pb-1 mb-4 text-xl font-semibold border-b border-blue-300 dark:border-gray-600 dark:text-gray-400">
-                    Paginas
+                    Año de publicación
                   </h2>
                   <div>
                     <div className="flex flex-wrap -mb-2">
                       <button className="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-blue-400 dark:border-gray-400 hover:text-blue-600 dark:hover:border-gray-300 dark:text-gray-400">
-                        100 Páginas{" "}
+                        2020{" "}
                       </button>
                     </div>
                   </div>
