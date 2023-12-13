@@ -41,9 +41,9 @@ const Navbar = () => {
               <li>
                 <a href="/proposal"> Propuestas Innovadoras </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/blog"> Blog </a>
-              </li>
+              </li> */}
 
               <li>
                 <a href="/contact"> Contacto </a>
@@ -54,6 +54,7 @@ const Navbar = () => {
             <img src={logo} alt="Logo" className="w-36 h-auto sm:w-36 " />
           </a>
         </div>
+
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg">
             <li className="hover:bg-[#A1C516] rounded-md ">
@@ -69,10 +70,10 @@ const Navbar = () => {
             <li className="hover:bg-[#206DB5] rounded-md">
               <a href="/proposal"> Propuestas Innovadoras </a>
             </li>
-            <li className="hover:bg-[#d2266b] rounded-md">
+            {/* <li className="hover:bg-[#d2266b] rounded-md">
               <a href="/blog"> Blog </a>
-            </li>
-            <li className="hover:bg-[#d2266b] rounded-md">
+            </li> */}
+            <li className="hover:bg-[#A1C516] rounded-md">
               <a href="/contact"> Contacto </a>
             </li>
           </ul>

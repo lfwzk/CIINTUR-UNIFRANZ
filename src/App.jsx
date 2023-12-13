@@ -14,6 +14,8 @@ import { Page2 } from "./pages/info/Page2";
 import { Page3 } from "./pages/info/Page3";
 import { Page4 } from "./pages/info/Page4";
 import { Blog } from "./pages/Blog";
+import { Metaverso } from "./pages/info/Metaverso";
+import { Interactive } from "./pages/info/Interactive";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path="/posts" element={<Post />} />
         <Route path="/proposal" element={<Proposal />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/metaverso" element={<Metaverso />} />
+        <Route path="/elalto-interactivo" element={<Interactive />} />
       </Routes>
     </>
   );
