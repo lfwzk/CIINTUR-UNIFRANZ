@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./Header";
 import Hero from "./Hero";
 import { Publish } from "./Publish";
-import { Alliance } from "./Alliance";
 
 import Footer from "./Footer";
 
@@ -15,7 +14,6 @@ export const Landing = () => {
         <Hero />
       </main>
       <Publish />
-      <Alliance />
 
       <Footer />
     </>

@@ -6,11 +6,18 @@ import portada3 from "../assets/portadas-oficiales/3.png";
 import portada4 from "../assets/portadas-oficiales/4.png";
 
 import aliado1 from "../assets/aliados/gams.png";
-import aliado2 from "../assets/aliados/logo-sorata.png";
+import aliado2 from "../assets/aliados/logof.png";
 import aliado3 from "../assets/aliados/logowhite.png";
 import aliado4 from "../assets/aliados/unifranz.jpeg";
+import pdf1 from "../assets/pdf/pdffinal.pdf";
 
 export const Publish = () => {
+  const handleDescargaPDF = () => {
+    const link = document.createElement("a");
+    link.href = pdf1;
+    link.download = "descarga1.pdf";
+    link.click();
+  };
   return (
     <>
       <section className="dark:bg-gray-800 dark:text-gray-100">
@@ -31,15 +38,14 @@ export const Publish = () => {
                 className="h-full w-full object-cover transform transition duration-500 hover:scale-110"
               />
             </a>
-            <a
-              href="/"
-              className="h-100 w-full rounded-md overflow-hidden hover:shadow-lg"
-            >
-              <img
-                src={portada2}
-                alt="portada"
-                className="h-full w-full object-cover transform transition duration-500 hover:scale-110"
-              />
+            <a className="h-100 w-full rounded-md overflow-hidden hover:shadow-lg">
+              <button onClick={handleDescargaPDF}>
+                <img
+                  src={portada2}
+                  alt="portada"
+                  className="h-full w-full object-cover transform transition duration-500 hover:scale-110"
+                />
+              </button>
             </a>
             <a
               href="/pagina3"
@@ -71,9 +77,9 @@ export const Publish = () => {
           <div className="flex flex-wrap justify-center mx-auto dark:text-gray-400">
             {[
               { src: aliado1, alt: "aliado1" },
+              { src: aliado2, alt: "aliado2" },
               { src: aliado3, alt: "aliado3" },
               { src: aliado4, alt: "aliado4" },
-              { src: aliado2, alt: "aliado2" },
             ].map((aliado, index) => (
               <div
                 key={index}
