@@ -5,7 +5,7 @@ import { Publish } from "./Publish";
 
 import Footer from "./Footer";
 
-export const Landing = () => {
+export const Home = () => {
   return (
     <>
       <Header />
