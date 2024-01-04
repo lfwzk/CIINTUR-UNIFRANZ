@@ -21,8 +21,11 @@ const Footer = () => {
         <div>
           <p>
             {" "}
-            Developed with 💚 <a href="https://github.com/lfwzk">
+            Developed with 💚{" "}
+            <a href="https://github.com/lfwzk">
               lfernand_cs
+              <br />
+              v1.2.0
             </a>{" "}
           </p>
         </div>

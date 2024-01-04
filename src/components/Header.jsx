@@ -1,6 +1,12 @@
 import logo from "../assets/principal.png";
+import toast, { Toaster } from "react-hot-toast";
 
 const Navbar = () => {
+  const notify = () =>
+    toast("Proximamente", {
+      icon: "🚀",
+    });
+
   return (
     <>
       <div className="navbar bg-white text-black shadow-lg font-lato  ">
@@ -61,8 +67,11 @@ const Navbar = () => {
               <a href="/about">Acerca del CIINTUR</a>
             </li>
             <li className="hover:bg-[#d2266b] rounded-md ">
-              <a href="#">Repositorio</a>
+              <button onClick={notify}>
+                <a href="#">Repositorio</a>
+              </button>
             </li>
+            <Toaster />
             <li className="hover:bg-[#F49A0F] rounded-md ">
               <a href="/information">Publicaciones científicas</a>
             </li>
