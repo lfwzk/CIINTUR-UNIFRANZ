@@ -12,6 +12,15 @@ export const Metaverso = () => {
         <h1 className="text-4xl font-semibold mb-6">
           Metaverso de la Gastronomía Boliviana
         </h1>
+        <p>
+          Objetivo: Aplicar la tendencia digital y virtual en la organización de
+          eventos (aplicación principal post pandemia del COVID 19 y
+          actualidad). Centro de convenciones Plataforma metaverso: Spatial.io
+          Docente: Reyna Patricia Guerra Camacho Estudiantes: Meliza Rocio Achu
+          Flores Leznny Nashira Alarcón Guzmán Marcos Quispe Chauca Luis Adolfo
+          Marín Castro Alexandra Quea Patzy Universidad Privada Franz Tamayo /
+          Proyecto de asignatura - 2do. semestre 2023
+        </p>
 
         <div className="max-w-4xl mx-auto bg-white rounded-xl overflow-hidden shadow-xl aspect-w-16 aspect-h-9">
           <Iframe
