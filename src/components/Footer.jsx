@@ -25,7 +25,7 @@ const Footer = () => {
               lfernand_cs
             </a>{" "}
             <br />
-            v1.2.0
+            v1.3.0
           </p>
         </div>
       </footer>
