@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import img from "../../assets/portadas-oficiales/4.png";
-import pdf1 from "../../assets/pdf/perfil.pdf";
+import pdf1 from "../../assets/documents/3.CIINTUR-Perfil_del_Turista_Interno_Bolivia_2021.pdf";
 
 export const Page4 = () => {
   const handleDescargaPDF = () => {
@@ -76,7 +76,7 @@ export const Page4 = () => {
                   </div>
                   <div className="flex flex-wrap items-center gap-4">
                     <button
-                      className="w-full p-4 rounded-md lg:w-2/5 hover:bg-[#d2266b] bg-[#d2266b] flex items-center justify-center"
+                      className="w-full p-4 rounded-md lg:w-2/5 hover:bg-[#d2266b] bg-[#d2266b] flex items-center justify-center text-white"
                       onClick={handleDescargaPDF}
                     >
                       Descargar{" "}

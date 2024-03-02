@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import img from "../../assets/portadas-oficiales/2.png";
+import img from "../../assets/portadas-oficiales/5.png";
 import pdf1 from "../../assets/pdf/edit1.pdf";
 
 export const Page2 = () => {
@@ -32,46 +32,44 @@ export const Page2 = () => {
               <div className="lg:pl-20">
                 <div className="mb-8 ">
                   <h2 className="max-w-xl mb-6 text-2xl font-bold dark:text-gray-400 md:text-4xl text-justify">
-                    EL IMPACTO DEL COVID-19 EN LA INDUSTRIA TURÍSTICA DE BOLIVIA
-                    Y ESTRATEGIAS PARA SALIR DE LA CRISIS
+                    Propuesta metodológica de medición de impactos económicos de
+                    eventos turísticos en Bolivia – 2021
                   </h2>
                   <p className="inline-block mb-6 text-xl font-bold text-gray-700 dark:text-gray-400 ">
                     <span>Descripción</span>
                   </p>
                   <p className="max-w-md text-gray-700 dark:text-gray-400 text-justify">
-                    La Pandemia del Covid-19 no sólo está afectando a la salud
-                    de la población, sino también está deteriorando las
-                    economías y las industrias de los países, una de ellas y la
-                    más afectada es sin duda el turismo. Bajo este contexto la
-                    carrera de Administración de Hotelería y Turismo de la
-                    Universidad Privada Franz Tamayo - Sede El Alto, m
+                    La actividad turística tiene un impacto significativo dentro
+                    la economía. Ante la necesidad de abordar metodológicamente
+                    el impacto económico del turismo en diferentes eventos
+                    turísticos, sea nivel sectorial y territorial, la presente
+                    propuesta delimita tres metodologías específicas para
+                    conocer a nivel.
                   </p>
                 </div>
                 <div className="mb-8">
                   <h2 className="w-16 pb-1 mb-4 text-2xl font-bold border-b border-blue-300 dark:text-gray-400 dark:border-gray-600">
-                    Autores
+                    Autor
                   </h2>
                   <div className="flex flex-wrap -mx-2 -mb-2">
-                    - Fernando <br />
-                    - Juan <br />
-                    - Maria <br />
+                    - Leónidas Chiri Carata
                   </div>
                 </div>
                 <div className="mb-8 ">
                   <h2 className="w-16 pb-1 mb-4 text-xl font-semibold border-b border-blue-300 dark:border-gray-600 dark:text-gray-400">
-                    Paginas
+                    Año de publicación
                   </h2>
                   <div>
                     <div className="flex flex-wrap -mb-2">
                       <button className="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-blue-400 dark:border-gray-400 hover:text-blue-600 dark:hover:border-gray-300 dark:text-gray-400">
-                        100 Páginas{" "}
+                        2023{" "}
                       </button>
                     </div>
                   </div>
                 </div>
                 <div className="flex flex-wrap items-center gap-4">
                   <button
-                    className="w-full p-4 rounded-md lg:w-2/5 hover:bg-[#d2266b] bg-[#d2266b] flex items-center justify-center"
+                    className="w-full p-4 rounded-md lg:w-2/5 hover:bg-[#d2266b] bg-[#d2266b] flex items-center justify-center text-white"
                     onClick={handleDescargaPDF}
                   >
                     Descargar{" "}

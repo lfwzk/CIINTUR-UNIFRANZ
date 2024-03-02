@@ -87,7 +87,7 @@ export const Page1 = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-wrap items-center gap-4">
+                <div className="flex flex-wrap items-center gap-4 text-white">
                   <button
                     className="w-full p-4 rounded-md lg:w-2/5 hover:bg-[#d2266b] bg-[#d2266b] flex items-center justify-center"
                     onClick={handleDescargaPDF}

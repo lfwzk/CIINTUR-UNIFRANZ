@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import img from "../../assets/portadas-oficiales/3.png";
-import pdf1 from "../../assets/pdf/impactos.pdf";
+import pdf1 from "../../assets/documents/2.Impactos_del_COVID-19_en_los_emprendimientos-de-turismo-comunitario.pdf";
 
 export const Page3 = () => {
   const handleDescargaPDF = () => {
@@ -83,7 +83,7 @@ export const Page3 = () => {
                   </div>
                   <div className="flex flex-wrap items-center gap-4">
                     <button
-                      className="w-full p-4 rounded-md lg:w-2/5 hover:bg-[#d2266b] bg-[#d2266b] flex items-center justify-center"
+                      className="w-full p-4 rounded-md lg:w-2/5 hover:bg-[#d2266b] bg-[#d2266b] flex items-center justify-center text-white"
                       onClick={handleDescargaPDF}
                     >
                       Descargar{" "}

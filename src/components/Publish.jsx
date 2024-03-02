@@ -71,7 +71,7 @@ export const Publish = () => {
             </a>
           </div>
         </div>
-        <div className="container mx-auto  sm:p-10 mt-8 bg-gray-900 rounded-md ">
+        <div className="container mx-auto  sm:p-10 mt-8 bg-[#2666AD] rounded-md ">
           <h2 className="text-center dark:text-white font-semibold lg:text-4xl mb-4 md:mb-6 md:text-3xl text-2xl text-white  font-lato">
             ALIADOS
           </h2>
