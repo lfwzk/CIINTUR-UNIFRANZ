@@ -23,7 +23,7 @@ const Footer = () => {
             {" "}
             Developed with love{" "}
             <a href="https://github.com/lfwzk">lfernand_cs</a> <br />
-            v1.3.0
+            v1.4.1
           </p>
         </div>
       </footer>
