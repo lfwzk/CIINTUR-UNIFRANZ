@@ -2,14 +2,13 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import img from "../../assets/portadas-oficiales/5.png";
-import pdf1 from "../../assets/pdf/edit1.pdf";
+import pdf1 from "../../assets/documents/6.Propuesta_Metodológica.pdf";
 
 export const Page2 = () => {
   const handleDescargaPDF = () => {
     const link = document.createElement("a");
     link.href = pdf1;
-    link.download = "descarga1.pdf"; // Nombre que tendrá el archivo descargado
-    link.click();
+    link.download = "descarga.pdf";
   };
   return (
     <>

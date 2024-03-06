@@ -2,13 +2,13 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import img from "../../assets/portadas-oficiales/1.png";
-import pdf1 from "../../assets/pdf/edit1.pdf";
+import pdf1 from "../../assets/documents/1.El_impacto_del_Covid-19_en_la_industria_turística.pdf";
 
 export const Page1 = () => {
   const handleDescargaPDF = () => {
     const link = document.createElement("a");
     link.href = pdf1;
-    link.download = "descarga1.pdf";
+    link.download = "descarga.pdf";
     link.click();
   };
   return (

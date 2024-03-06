@@ -39,7 +39,7 @@ const Navbar = () => {
                 <a href="/about">Acerca del CIINTUR</a>
               </li>
               <li>
-                <a href="/repository">Repositorio</a>
+                <a href="/#">Blog</a>
               </li>
               <li>
                 <a href="/information">Publicaciones científica</a>
@@ -66,11 +66,7 @@ const Navbar = () => {
             <li className="hover:bg-[#A1C516] rounded-md ">
               <a href="/about">Acerca del CIINTUR</a>
             </li>
-            <li className="hover:bg-[#d2266b] rounded-md ">
-              <button onClick={notify}>
-                <a href="#">Repositorio</a>
-              </button>
-            </li>
+
             <Toaster />
             <li className="hover:bg-[#F49A0F] rounded-md ">
               <a href="/information">Publicaciones científicas</a>
@@ -82,6 +78,11 @@ const Navbar = () => {
             {/* <li className="hover:bg-[#d2266b] rounded-md">
               <a href="/blog"> Blog </a>
             </li> */}
+            <li className="hover:bg-[#d2266b] rounded-md ">
+              <button onClick={notify}>
+                <a href="#">Blog</a>
+              </button>
+            </li>
             <li className="hover:bg-[#A1C516] rounded-md">
               <a href="/contact"> Contacto </a>
             </li>

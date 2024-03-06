@@ -10,7 +10,7 @@ import aliado2 from "../assets/aliados/logof.png";
 import aliado3 from "../assets/aliados/logowhite.png";
 import aliado4 from "../assets/aliados/unifranz.jpeg";
 import aliado5 from "../assets/aliados/warmi.png";
-import pdf1 from "../assets/pdf/pdffinal.pdf";
+import pdf1 from "../assets/documents/6.Propuesta_Metodológica.pdf";
 
 export const Publish = () => {
   const handleDescargaPDF = () => {
